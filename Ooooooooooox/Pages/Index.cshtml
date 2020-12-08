@@ -1,0 +1,114 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar" class="nav">
+        <ul class="nav-list">
+            <li>
+                <a href="#welcome-section">About</a>
+            </li>
+            <li>
+                <a href="#projects">Work</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- END NAV -->
+    <!-- START WELCOME SECTION -->
+
+    <section id="welcome-section" class="welcome-section">
+        <h1>Сквозь линзу</h1>
+        <p>я вижу это то как я это вижу </p>
+    </section>
+
+    <!-- END WELCOME SECTION -->
+    <!-- START PROJECTS SECTION -->
+
+    <section id="projects" class="projects-section">
+        <h2 class="projects-section-header">Это мои последний работы</h2>
+
+        <div class="projects-grid">
+            <a target="_blank"
+               class="project project-tile">
+                <img class="project-image"
+                     src="ph1.jpg"
+                     alt="project" />
+            </a>
+            <a target="_blank"
+               class="project project-tile">
+                <img class="project-image"
+                     src="ph2.jpg"
+                     alt="project" />
+
+            </a>
+            <a target="_blank"
+               class="project project-tile">
+                <img class="project-image"
+                     src="ph3.jpg"
+                     alt="project" />
+
+            </a>
+            <a target="_blank"
+               class="project project-tile">
+                <img class="project-image"
+                     src="ph4.jpg"
+                     alt="project" />
+
+            </a>
+            <a target="_blank"
+               class="project project-tile">
+                <img class="project-image"
+                     src="ph5.jpg"
+                     alt="project" />
+
+            </a>
+            <a target="_blank"
+               class="project project-tile">
+                <img class="project-image"
+                     src="ph6.jpg"
+                     alt="project" />
+            </a>
+        </div>
+
+
+    </section>
+
+    <!-- END PROJECTS SECTION -->
+    <!-- START CONTACT SECTION -->
+
+    <section id="contact" class="contact-section">
+        <div class="contact-section-header">
+            <h2>Скоро новые работы</h2>
+            <p>Мои соц.сети</p>
+        </div>
+        <div class="contact-links">
+            <a href="https://t.me/tthroughthelens" target="_blank" class="btn contact-details">
+                <i class="fab fa-telegram"></i>Telegram
+            </a>
+            <a href="https://instagram.com/ph.ooooxx?igshid=1hbvsh3d1lc4s" target="_blank" class="btn contact-details">
+                <i class="fab fa-instagram"></i>Instagram
+            </a>
+            <a href="https://vk.com/ilona1230" target="_blank" class="btn contact-details">
+                <i class="fab fa-vkontakte-square"></i>Vkontakte
+            </a>
+        </div>
+    </section>
+
+</body>
+</html>
+
